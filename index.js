@@ -5,8 +5,13 @@ let countEl = document.getElementById("count-el");
 console.log(countEl)
 let count = 0
 
-function increment(){
+function suma1(){
     count = count+1   //count += 1 
+    countEl.textContent = count 
+}
+
+function resta1(){
+    count = count-1   //count -= 1 
     countEl.textContent = count 
 }
 

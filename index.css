@@ -29,11 +29,34 @@ body {
     margin-bottom: 5px;
     border-radius: 5px;
     }
+
     
-    #increment-btn {
+
+    #resta2-btn {
+        background: darkred;
+        width: 80px;
+        }
+    
+    #resta1-btn {
     background: darkred;
+    width: 60px;
     }
-    
+
+    #suma1-btn {
+    background: royalblue;
+    width: 60px;
+    }
+
+    #suma2-btn {
+        background: royalblue;
+        width: 80px;
+        }
+
+        #suma5-btn {
+            background: royalblue;
+            width: 60px;
+            }
+
     #save-btn {
     background: darkgreen;
     }
