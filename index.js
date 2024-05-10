@@ -27,22 +27,47 @@ function suma10(){
 
 function resta1(){
     count = count-1   //count -= 1 
-    countEl.textContent = count 
+    if (count > 0) {
+    countEl.textContent = count        
+    } else {
+        alert("No puede haber menos de 0 pasajeros")
+        count = count+1   //count += 1
+        countEl.textContent = count
+    }
+
 }
 
 function resta2(){
     count = count-2   //count -= 2 
+    if (count > 0) {
     countEl.textContent = count 
-}
+    } else {
+        alert("No puede haber menos de 0 pasajeros")
+        count = count+2   //count += 2
+        ountEl.textContent = count
+    }
 
+}
 function resta5(){
     count = count-5   //count -= 5 
+    if (count > 0) {
     countEl.textContent = count 
+    } else {
+        alert("No puede haber menos de 0 pasajeros")
+        count = count+5   //count += 5
+        countEl.textContent = count
+    }
 }
 
 function resta10(){
     count = count-10   //count -= 10 
+    if (count > 0) {
     countEl.textContent = count 
+    } else {
+        alert("No puede haber menos de 0 pasajeros")
+        count = count+10   //count += 10    
+        countEl.textContent = count
+    }
 }
 
 function save(){
